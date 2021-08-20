@@ -36,3 +36,119 @@
     transform: rotate(360deg);
   }
 }
+
+.conatiner-item {
+  min-height: 100px;
+  min-width: 200px;
+  margin: 10px;
+  
+  padding: 15px;
+  border-radius: 8px;
+
+}
+.container {
+  
+  display: flex;
+  justify-content: center;
+}
+.container1 {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.tabesh {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+td {
+  display: inline-block;
+  margin: 10px;
+  min-width: 60px;
+  min-height: 60px;
+  background-color: gray;
+  border-radius:  5px;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  padding: 25px;
+  box-sizing: border-box;
+  color: white;
+}
+
+select {
+  width: 200px;
+  border: none;
+  background-color: lightgray;
+  font-size: large;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.room {
+  min-width: 100px;
+  min-height: 100px;
+  border-radius: 20px;
+  background-color: lightgreen;
+}
+.room:hover{
+  opacity: 0.8;
+}
+/* .room:active{
+  background-color: gray;
+  min-width: 100px;
+  min-height: 100px;
+  border-radius: 20px;
+} */
+.junuon{
+  background-color: gray;
+  min-width: 100px;
+  min-height: 100px;
+  border-radius: 20px;
+}
+.roomer {
+  background-color: white;
+  min-width: 100px;
+  min-height: 100px;
+  border-radius: 20px;
+}
+
+.primarybtn {
+  background-color: rgb(86, 105, 212);
+  border-radius: 40px;
+  width: 200px;
+  border: none;
+  height: 40px;
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+
+}
+.modalpop {
+  background-color: lightskyblue;
+  position: absolute;
+  top:150px;
+  left:300px;
+  right:300px;
+  bottom: 150px;
+}
+.crossicon {
+  color: red;
+}
