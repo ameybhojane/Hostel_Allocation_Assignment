@@ -2,14 +2,14 @@ import logo from "./logo.svg";
 import "./App.css";
 import React from "react";
 import { useState } from "react";
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
-import { library } from "@fortawesome/fontawesome-svg-core";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+// import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFemale, faMale ,faTimes} from "@fortawesome/free-solid-svg-icons";
 import "./App.css";
-import { floor } from "lodash";
-import { white } from "jest-matcher-utils/node_modules/chalk";
-import { innerText } from "domutils";
+// import { floor } from "lodash";
+// import { white } from "jest-matcher-utils/node_modules/chalk";
+// import { innerText } from "domutils";
 
 
 function App() {
@@ -142,7 +142,7 @@ function Girl(props) {
 }
 
 function Boy(props) {
-  const { gender } = props;
+  // const { gender } = props;
   return (
     <>
       <h1>Choose A Hostel</h1>
@@ -177,7 +177,7 @@ function Boy(props) {
 }
 
 function Page1(props) {
-  let gender = "";
+  
   const {setGender}=props;
 
   return (
